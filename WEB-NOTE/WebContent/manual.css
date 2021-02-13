@@ -1,0 +1,38 @@
+*body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-custom{
+     background:#fd0a84;
+}
+
+.navbar .nav-item .nav-link{
+      color: white;
+      font-size:20px;
+}
+
+.navbar-custom .nav-item:hover .nav-link{
+   color: black;
+   background-color:white;
+   border-radius:10px;
+}
+
+/* INDEX.HTML */
+
+.back-img{
+    background: url("background.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-green {
+    color: #00ff7e!important;
+}
+
+.div-color{
+        background-image: linear-gradient(to right top, #003eed, #ed9600, #ec0000, #00e5bb, #22ffe0, #f95a5a);
+    height: 570px;
+}
